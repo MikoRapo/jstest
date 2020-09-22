@@ -1,4 +1,4 @@
-function tausiikainen(a){
+function Ympyrapintaala(a){
     //console.log(a);
     if(Number.isNaN(Number(a))){
         throw new Error('ei lukuja');  
@@ -7,15 +7,15 @@ function tausiikainen(a){
         throw new Error('ei lukuja');
     }
      if(a < 0){
-        throw new Error('Ikä ei voi olla miinus');   
+        throw new Error('säde ei voi olla miinus');   
     }  
-    
+   
 
-    let tausiikainen = Number(a)>17;
+    let Ympyrapintaala =Math.round(Number(a) * 3.14 * Number(a)* 100) / 100;
     //console.log(summ);
    
     
-    return tausiikainen;
+    return Ympyrapintaala;
 }
 
-module.exports = tausiikainen;
+module.exports = Ympyrapintaala;

@@ -3,8 +3,11 @@ function osamaara(a, b = 2){
     if(a === undefined || a === null){
         throw new Error('nolla parametria annettu');   
     } 
+    if(b === undefined || b === null){
+        throw new Error('nolla parametria annettu');   
+    } 
     
-    if(a === 0){
+    if(b === 0){
         throw new Error('Nollalla ei voi jakaa');   
     }   
 

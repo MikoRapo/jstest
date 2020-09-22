@@ -13,5 +13,5 @@ test('Syötteet ei numeromaisia merkkijonoja "Minna"+"Jaska", heittää poikkeuk
 });
 
 test('Syöte nolla, jota ei voi jakaa, heittää poikkeuksen', () => {
-    expect(() => {osamaara(0)}).toThrow("Nollalla ei voi jakaa");
+    expect(() => {osamaara(1,0)}).toThrow("Nollalla ei voi jakaa");
 });
