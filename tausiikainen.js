@@ -8,10 +8,12 @@ function tausiikainen(a){
     }
      if(a < 0){
         throw new Error('Ikä ei voi olla miinus');   
-    }  
+    } 
+ 
+    
     
 
-    let tausiikainen = Number(a)>17;
+    let tausiikainen = Number(a)>=18;
     //console.log(summ);
    
     
