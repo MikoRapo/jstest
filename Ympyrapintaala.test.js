@@ -1,7 +1,7 @@
 const Ympyrapintaala = require('./Ympyrapintaala');
 
 test('Ympyrä jonka säde 2', () => {
-    expect(Ympyrapintaala(2)).toBe(12.56);
+    expect(Ympyrapintaala(2)).toBe(12.57);
 });
 
 
@@ -13,10 +13,3 @@ test('Säde joka on negatiivinen heittää poikkeuksen', () => {
 test('Sädettä ei syötetty', () => {
     expect(() => {Ympyrapintaala()}).toThrow('ei lukuja');
 });
-
-
-
-
-
-
-

@@ -11,7 +11,7 @@ function Ympyrapintaala(a){
     }  
    
 
-    let Ympyrapintaala =Math.round(Number(a) * 3.14 * Number(a)* 100) / 100;
+    let Ympyrapintaala =Math.round(Number(a) * Math.PI * Number(a)* 100) / 100;
     //console.log(summ);
    
     
